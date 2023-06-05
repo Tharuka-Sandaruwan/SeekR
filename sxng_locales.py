@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''List of SearXNG's locale codes.
+'''List of SeekR's locale codes.
 
 This file is generated automatically by::
 
@@ -98,12 +98,12 @@ sxng_locales = (
 '''
 A list of five-digit tuples:
 
-0. SearXNG's internal locale tag (a language or region tag)
+0. SeekR's internal locale tag (a language or region tag)
 1. Name of the language (:py:obj:`babel.core.Locale.get_language_name`)
 2. For region tags the name of the region (:py:obj:`babel.core.Locale.get_territory_name`).
    Empty string for language tags.
 3. English language name (from :py:obj:`babel.core.Locale.english_name`)
-4. Unicode flag (emoji) that fits to SearXNG's internal region tag. Languages
+4. Unicode flag (emoji) that fits to SeekR's internal region tag. Languages
    are represented by a globe (🌐)
 
 .. code:: python

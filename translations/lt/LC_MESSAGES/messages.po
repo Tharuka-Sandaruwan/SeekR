@@ -372,7 +372,7 @@ msgstr ""
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 
 #: searx/plugins/tor_check.py:62
@@ -582,7 +582,7 @@ msgid "What language do you prefer for search?"
 msgstr "Kokią kalbą pageidaujate paieškai?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -658,8 +658,8 @@ msgid "Theme"
 msgstr "Tema"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Pakeiskite SearXNG išdėstymą"
+msgid "Change SeekR layout"
+msgstr "Pakeiskite SeekR išdėstymą"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -735,8 +735,8 @@ msgid "Disabled"
 msgstr "Išjungtas"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Persiunčiami paveikslai per SearXNG"
+msgid "Proxying image results through SeekR"
+msgstr "Persiunčiami paveikslai per SeekR"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -823,8 +823,8 @@ msgstr "Pavyzdžiai"
 
 #: searx/templates/simple/preferences.html:372
 #, fuzzy
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Šis sąrašas yra SearXNG"
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "Šis sąrašas yra SeekR"
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -836,15 +836,15 @@ msgstr "Slapukai"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
-"Čia yra slapukų sąrašas ir jų informacija, kurią SearXNG saugo jūsų "
+"Čia yra slapukų sąrašas ir jų informacija, kurią SeekR saugo jūsų "
 "kompiuterije."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "Su šiuo sąrašu, jūs gaunate prieiga prie SearXNG permatomumą."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "Su šiuo sąrašu, jūs gaunate prieiga prie SeekR permatomumą."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1437,7 +1437,7 @@ msgstr "slėpti vaizdo įrašą"
 #~ msgid "Heads up!"
 #~ msgstr "Dėmesio!"
 
-#~ msgid "It look like you are using SearXNG first time."
+#~ msgid "It look like you are using SeekR first time."
 #~ msgstr ""
 
 #~ msgid "Well done!"
@@ -1562,5 +1562,5 @@ msgstr "slėpti vaizdo įrašą"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "Sistemos negali gauti rezultatų."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "Prašau, pabandykite vėliau arba suraskite kita SearXNG instanciją."
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "Prašau, pabandykite vėliau arba suraskite kita SeekR instanciją."

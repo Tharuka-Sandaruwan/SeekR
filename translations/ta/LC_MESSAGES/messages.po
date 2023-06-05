@@ -380,7 +380,7 @@ msgstr ""
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 
 #: searx/plugins/tor_check.py:62
@@ -591,7 +591,7 @@ msgid "What language do you prefer for search?"
 msgstr "தேடலுக்கு எந்த மொழியை விரும்புகிறீர்கள்?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -667,8 +667,8 @@ msgid "Theme"
 msgstr "தீம்"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "SearXNG தளவமைப்பை மாற்றவும்"
+msgid "Change SeekR layout"
+msgstr "SeekR தளவமைப்பை மாற்றவும்"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -744,8 +744,8 @@ msgid "Disabled"
 msgstr "நிறுத்தப்பட்டது"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "SearXNG மூலம் படத்தின் முடிவுகளைப் பதிலீடு செய்கிறது"
+msgid "Proxying image results through SeekR"
+msgstr "SeekR மூலம் படத்தின் முடிவுகளைப் பதிலீடு செய்கிறது"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -831,8 +831,8 @@ msgid "Examples"
 msgstr "எடுத்துக்காட்டுகள்"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "இது SearXNG இன் உடனடி பதில் தொகுதிகளின் பட்டியல்."
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "இது SeekR இன் உடனடி பதில் தொகுதிகளின் பட்டியல்."
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -844,15 +844,15 @@ msgstr "நினைவிகள்"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
-"இது உங்கள் கணினியில் SearXNG சேமிக்கும் குக்கீகளின் பட்டியல் மற்றும் "
+"இது உங்கள் கணினியில் SeekR சேமிக்கும் குக்கீகளின் பட்டியல் மற்றும் "
 "அவற்றின் மதிப்புகள்."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "அந்த பட்டியலின் மூலம், நீங்கள் SearXNG வெளிப்படைத்தன்மையை மதிப்பிடலாம்."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "அந்த பட்டியலின் மூலம், நீங்கள் SeekR வெளிப்படைத்தன்மையை மதிப்பிடலாம்."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1437,8 +1437,8 @@ msgstr "காணொளிகளை மறை"
 #~ msgid "Heads up!"
 #~ msgstr "வாழ்த்துக்கள்!"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "நீங்கள் முதல் முறையாக SearXNG ஐப் பயன்படுத்துகிறீர்கள் போல் தெரிகிறது."
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "நீங்கள் முதல் முறையாக SeekR ஐப் பயன்படுத்துகிறீர்கள் போல் தெரிகிறது."
 
 #~ msgid "Well done!"
 #~ msgstr "சபாஷ்!"
@@ -1559,7 +1559,7 @@ msgstr "காணொளிகளை மறை"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "எந்திரத்தால் பதில்களை மீட்டெடுக்க இயலவில்லை."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""
 #~ "தயவுசெய்து, பிறகு முயற்சிக்கவும் அல்லது "
-#~ "மற்றொரு SearXNG நிகழ்வைக் கண்டறியவும்."
+#~ "மற்றொரு SeekR நிகழ்வைக் கண்டறியவும்."

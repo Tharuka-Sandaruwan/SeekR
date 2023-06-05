@@ -11,11 +11,11 @@ Limiter
 
 Bot protection / IP rate limitation.  The intention of rate limitation is to
 limit suspicious requests from an IP.  The motivation behind this is the fact
-that SearXNG passes through requests from bots and is thus classified as a bot
-itself.  As a result, the SearXNG engine then receives a CAPTCHA or is blocked
+that SeekR passes through requests from bots and is thus classified as a bot
+itself.  As a result, the SeekR engine then receives a CAPTCHA or is blocked
 by the search engine (the origin) in some other way.
 
-To avoid blocking, the requests from bots to SearXNG must also be blocked, this
+To avoid blocking, the requests from bots to SeekR must also be blocked, this
 is the task of the limiter.  To perform this task, the limiter uses the methods
 from the :py:obj:`searx.botdetection`.
 

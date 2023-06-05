@@ -1,38 +1,38 @@
-# Über SearXNG
+# Über SeekR
 
-SearXNG ist eine [Metasuchmaschine], welche die Ergebnisse anderer
+SeekR ist eine [Metasuchmaschine], welche die Ergebnisse anderer
 {{link('Suchmaschinen', 'preferences')}} sammelt und aufbereitet ohne dabei
 Informationen über seine Benutzer zu sammeln oder an andere Suchmaschinen weiter
 zu geben.
 
-Das SearXNG Projekt wird von einer offenen Gemeinschaft entwickelt; wenn Sie
-Fragen haben oder einfach nur über SearXNG plaudern möchten, besuchen Sie uns
+Das SeekR Projekt wird von einer offenen Gemeinschaft entwickelt; wenn Sie
+Fragen haben oder einfach nur über SeekR plaudern möchten, besuchen Sie uns
 auf Matrix unter: [#searxng:matrix.org]
 
-Werden Sie Teil des Projekts und unterstützen Sie SearXNG:
+Werden Sie Teil des Projekts und unterstützen Sie SeekR:
 
-- Sie können die SearXNG Übersetzungen ergänzen oder korrigieren: [Weblate]
+- Sie können die SeekR Übersetzungen ergänzen oder korrigieren: [Weblate]
 - oder folgen Sie den Entwicklungen, senden Sie Beiträge und melden Sie Fehler:
-  [SearXNG Quellen]
-- Mehr Informationen sind in der [SearXNG Dokumentation] zu finden.
+  [SeekR Quellen]
+- Mehr Informationen sind in der [SeekR Dokumentation] zu finden.
 
-## Warum sollte ich SearXNG benutzen?
+## Warum sollte ich SeekR benutzen?
 
-- SearXNG bietet Ihnen vielleicht nicht so personalisierte Ergebnisse wie
+- SeekR bietet Ihnen vielleicht nicht so personalisierte Ergebnisse wie
   Google, aber es erstellt auch kein Profil über Sie.
-- SearXNG kümmert sich nicht darum, wonach Sie suchen, gibt niemals etwas an
+- SeekR kümmert sich nicht darum, wonach Sie suchen, gibt niemals etwas an
   Dritte weiter und kann nicht dazu verwendet werden Sie zu kompromittieren.
-- SearXNG ist freie Software, der Code ist zu 100% offen und jeder ist
+- SeekR ist freie Software, der Code ist zu 100% offen und jeder ist
   willkommen ihn zu verbessern.
 
 Wenn Ihnen die Privatsphäre wichtig ist, Sie ein bewusster Nutzer sind und Sie
-an die digitale Freiheit glauben, sollten Sie SearXNG zu Ihrer
-Standardsuchmaschine machen oder eine SearXNG Instanz auf Ihrem eigenen Server
+an die digitale Freiheit glauben, sollten Sie SeekR zu Ihrer
+Standardsuchmaschine machen oder eine SeekR Instanz auf Ihrem eigenen Server
 betreiben.
 
-## Wie kann ich SearXNG als Standardsuchmaschine festlegen?
+## Wie kann ich SeekR als Standardsuchmaschine festlegen?
 
-SearXNG unterstützt [OpenSearch].  Weitere Informationen zum Ändern Ihrer
+SeekR unterstützt [OpenSearch].  Weitere Informationen zum Ändern Ihrer
 Standardsuchmaschine finden Sie in der Dokumentation zu Ihrem [WEB-Browser]:
 
 - [Firefox]
@@ -45,28 +45,28 @@ Wenn Sie eine Suchmaschine hinzufügen, darf es keine Duplikate mit demselben
 Namen geben.  Wenn Sie auf ein Problem stoßen, bei dem Sie die Suchmaschine
 nicht hinzufügen können, dann können Sie entweder:
 
-- das Duplikat entfernen (Standardname: SearXNG) oder
+- das Duplikat entfernen (Standardname: SeekR) oder
 - den Eigentümer kontaktieren, damit dieser der Instance einen anderen Namen als
   den Standardnamen gibt.
 
-## Wie funktioniert SearXNG?
+## Wie funktioniert SeekR?
 
-SearXNG ist ein Fork der bekannten [searx] [Metasuchmaschine], die durch das
+SeekR ist ein Fork der bekannten [searx] [Metasuchmaschine], die durch das
 [Seeks-Projekt] inspiriert wurde (diese beide Projekte werden heute nicht mehr
-aktiv weiterentwickelt).  SearXNG bietet einen grundlegenden Schutz der
+aktiv weiterentwickelt).  SeekR bietet einen grundlegenden Schutz der
 Privatsphäre, indem es die Suchanfragen der Benutzer mit Suchen auf anderen
-Plattformen vermischt ohne dabei Suchdaten zu speichern.  SearXNG kann im
+Plattformen vermischt ohne dabei Suchdaten zu speichern.  SeekR kann im
 [WEB-Browser] als weitere oder Standard-Suchmaschine hinzugefügt werden.
 
 Die {{link('Suchmaschinenstatistik', 'stats')}} enthält einige nützliche
 Statistiken über die verwendeten Suchmaschinen.
 
-## Wie kann ich einen eigenen SearXNG Server betreiben?
+## Wie kann ich einen eigenen SeekR Server betreiben?
 
 Jeder der mit dem Betrieb von WEB-Servern vertraut ist kann sich eine eigene
-Instanz einrichten; die Software dazu kann über die [SearXNG Quellen] bezogen
+Instanz einrichten; die Software dazu kann über die [SeekR Quellen] bezogen
 werden. Weitere Informationen zur Installation und zum Betrieb finden sich in
-der [SearXNG Dokumentation].
+der [SeekR Dokumentation].
 
 Fügen Sie Ihre Instanz zu der [Liste der öffentlich zugänglichen
 Instanzen]({{get_setting('brand.public_instances')}}) hinzu um auch anderen
@@ -74,9 +74,9 @@ Menschen zu helfen ihre Privatsphäre zurückzugewinnen und das Internet freier 
 machen.  Je dezentraler das Internet ist, desto mehr Freiheit haben wir!
 
 
-[SearXNG Quellen]: {{GIT_URL}}
+[SeekR Quellen]: {{GIT_URL}}
 [#searxng:matrix.org]: https://matrix.to/#/#searxng:matrix.org
-[SearXNG Dokumentation]: {{get_setting('brand.docs_url')}}
+[SeekR Dokumentation]: {{get_setting('brand.docs_url')}}
 [searx]: https://github.com/searx/searx
 [Metasuchmaschine]: https://de.wikipedia.org/wiki/Metasuchmaschine
 [Weblate]: https://translate.codeberg.org/projects/searxng/

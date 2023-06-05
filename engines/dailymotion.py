@@ -86,7 +86,7 @@ result_fields = [
 ]
 """`Fields selection`_, by default, a few fields are returned. To request more
 specific fields, the ``fields`` parameter is used with the list of fields
-SearXNG needs in the response to build a video result list.
+SeekR needs in the response to build a video result list.
 """
 
 search_url = 'https://api.dailymotion.com/videos?'
@@ -98,7 +98,7 @@ search_url = 'https://api.dailymotion.com/videos?'
 """
 
 iframe_src = "https://www.dailymotion.com/embed/video/{video_id}"
-"""URL template to embed video in SearXNG's result list."""
+"""URL template to embed video in SeekR's result list."""
 
 
 def request(query, params):

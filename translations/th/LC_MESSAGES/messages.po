@@ -369,7 +369,7 @@ msgstr ""
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 
 #: searx/plugins/tor_check.py:62
@@ -577,7 +577,7 @@ msgid "What language do you prefer for search?"
 msgstr "คุณต้องการค้นหาภาษาใด?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -651,7 +651,7 @@ msgid "Theme"
 msgstr "ธีม"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
+msgid "Change SeekR layout"
 msgstr "เปลี่ยนเค้าโครง เซียร์เอ็กซ์เอ็นจี"
 
 #: searx/templates/simple/preferences.html:210
@@ -728,7 +728,7 @@ msgid "Disabled"
 msgstr "ปิดใช้งาน"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through SeekR"
 msgstr "การแสดงพร็อกซี่ของภาพผ่าน เซียร์เอ็กซ์เอ็นจี"
 
 #: searx/templates/simple/preferences.html:285
@@ -815,7 +815,7 @@ msgid "Examples"
 msgstr "ตัวอย่าง"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of SeekR's instant answering modules."
 msgstr "นี่คือรายการโมดูลที่ตอบรับทันทีของเซียร์เอ็กซ์เอ็นจี"
 
 #: searx/templates/simple/preferences.html:383
@@ -828,12 +828,12 @@ msgstr "คุกกี้"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr "นี่คือรายการคุกกี้และค่าของคุกกี้ที่เซียร์เอ็กซ์เอ็นจีจัดเก็บไว้ในคอมพิวเตอร์ของคุณ"
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess SeekR transparency."
 msgstr "ด้วยรายการดังกล่าว คุณสามารถประเมินความโปร่งใสของเซียร์เอ็กซ์เอ็นจีได้"
 
 #: searx/templates/simple/preferences.html:408
@@ -1299,5 +1299,5 @@ msgstr "ซ่อนวิดีโอ"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "เครื่องมือไม่สามารถดึงผลลัพธ์ได้"
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr "โปรดลองอีกครั้งในภายหลังหรือค้นหาอินสแตนซ์อื่นของเซียร์เอ็กซ์เอ็นจี"

@@ -368,7 +368,7 @@ msgstr "Tor 검사 플러그인"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "이 플러그인은 요청의 주소가 토르 출구 노드 인지 확인하고 사용자에게 check.torproject.org와 같이 "
 "SearchXNG의 주소인지 알려줍니다."
@@ -578,7 +578,7 @@ msgid "What language do you prefer for search?"
 msgstr "어떤 언어로 검색하시겠습니까?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr "SearXNG가 검색 언어를 자동감지 할 수 있도록 자동감지를 선택해 주세요."
 
 #: searx/templates/simple/preferences.html:133
@@ -652,8 +652,8 @@ msgid "Theme"
 msgstr "테마"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "SearXNG 레이아웃 변경"
+msgid "Change SeekR layout"
+msgstr "SeekR 레이아웃 변경"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -732,7 +732,7 @@ msgid "Disabled"
 msgstr "비활성화됨"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through SeekR"
 msgstr "SearXNG를 통해 이미지 결과 우회"
 
 #: searx/templates/simple/preferences.html:285
@@ -817,7 +817,7 @@ msgid "Examples"
 msgstr "예시"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of SeekR's instant answering modules."
 msgstr "SearXNG의 즉각응답 모듈 목록입니다."
 
 #: searx/templates/simple/preferences.html:383
@@ -830,12 +830,12 @@ msgstr "쿠키"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr "SearXNG이 컴퓨터에 저장하는 쿠키 목록입니다."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess SeekR transparency."
 msgstr "이 목록으로 SearXNG의 투명성을 판단할 수 있습니다."
 
 #: searx/templates/simple/preferences.html:408
@@ -1291,7 +1291,7 @@ msgstr "비디오 숨기기"
 #~ msgid "Heads up!"
 #~ msgstr "조심하세요!"
 
-#~ msgid "It look like you are using SearXNG first time."
+#~ msgid "It look like you are using SeekR first time."
 #~ msgstr "SearXNG를 처음 쓰시는 것 같군요."
 
 #~ msgid "Well done!"
@@ -1414,5 +1414,5 @@ msgstr "비디오 숨기기"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "검색결과를 가져올 수 없습니다."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "다음에 시도하거나 다른 SearXNG 객체를 이용해주세요."
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "다음에 시도하거나 다른 SeekR 객체를 이용해주세요."

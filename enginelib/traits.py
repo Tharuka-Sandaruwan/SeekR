@@ -2,7 +2,7 @@
 # lint: pylint
 """Engine's traits are fetched from the origin engines and stored in a JSON file
 in the *data folder*.  Most often traits are languages and region codes and
-their mapping from SearXNG's representation to the representation in the origin
+their mapping from SeekR's representation to the representation in the origin
 search engine.  For new traits new properties can be added to the class
 :py:class:`EngineTraits`.
 
@@ -39,9 +39,9 @@ class EngineTraits:
     """The class is intended to be instantiated for each engine."""
 
     regions: Dict[str, str] = dataclasses.field(default_factory=dict)
-    """Maps SearXNG's internal representation of a region to the one of the engine.
+    """Maps SeekR's internal representation of a region to the one of the engine.
 
-    SearXNG's internal representation can be parsed by babel and the value is
+    SeekR's internal representation can be parsed by babel and the value is
     send to the engine:
 
     .. code:: python
@@ -56,9 +56,9 @@ class EngineTraits:
     """
 
     languages: Dict[str, str] = dataclasses.field(default_factory=dict)
-    """Maps SearXNG's internal representation of a language to the one of the engine.
+    """Maps SeekR's internal representation of a language to the one of the engine.
 
-    SearXNG's internal representation can be parsed by babel and the value is
+    SeekR's internal representation can be parsed by babel and the value is
     send to the engine:
 
     .. code:: python
@@ -73,7 +73,7 @@ class EngineTraits:
     """
 
     all_locale: Optional[str] = None
-    """To which locale value SearXNG's ``all`` language is mapped (shown a "Default
+    """To which locale value SeekR's ``all`` language is mapped (shown a "Default
     language").
     """
 
@@ -82,14 +82,14 @@ class EngineTraits:
     """
 
     custom: Dict[str, Union[Dict[str, Dict], Iterable[str]]] = dataclasses.field(default_factory=dict)
-    """A place to store engine's custom traits, not related to the SearXNG core
+    """A place to store engine's custom traits, not related to the SeekR core
 
     """
 
     def get_language(self, searxng_locale: str, default=None):
-        """Return engine's language string that *best fits* to SearXNG's locale.
+        """Return engine's language string that *best fits* to SeekR's locale.
 
-        :param searxng_locale: SearXNG's internal representation of locale
+        :param searxng_locale: SeekR's internal representation of locale
           selected by the user.
 
         :param default: engine's default language
@@ -103,9 +103,9 @@ class EngineTraits:
         return locales.get_engine_locale(searxng_locale, self.languages, default=default)
 
     def get_region(self, searxng_locale: str, default=None):
-        """Return engine's region string that best fits to SearXNG's locale.
+        """Return engine's region string that best fits to SeekR's locale.
 
-        :param searxng_locale: SearXNG's internal representation of locale
+        :param searxng_locale: SeekR's internal representation of locale
           selected by the user.
 
         :param default: engine's default region
@@ -119,7 +119,7 @@ class EngineTraits:
         return locales.get_engine_locale(searxng_locale, self.regions, default=default)
 
     def is_locale_supported(self, searxng_locale: str) -> bool:
-        """A *locale* (SearXNG's internal representation) is considered to be supported
+        """A *locale* (SeekR's internal representation) is considered to be supported
         by the engine if the *region* or the *language* is supported by the
         engine.  For verification the functions :py:func:`self.get_region` and
         :py:func:`self.get_region` are used.
@@ -222,8 +222,8 @@ class EngineTraitsMap(Dict[str, EngineTraits]):
 
             traits = EngineTraits.fetch_traits(engine)
             if traits is not None:
-                log("%-20s: SearXNG languages --> %s " % (engine_name, len(traits.languages)))
-                log("%-20s: SearXNG regions   --> %s" % (engine_name, len(traits.regions)))
+                log("%-20s: SeekR languages --> %s " % (engine_name, len(traits.languages)))
+                log("%-20s: SeekR regions   --> %s" % (engine_name, len(traits.regions)))
                 obj[engine_name] = traits
 
         return obj

@@ -62,10 +62,10 @@ def time_range_args(params):
     ``params['time_range']``.
 
     Google Scholar supports a detailed search by year.  Searching by *last
-    month* or *last week* (as offered by SearXNG) is uncommon for scientific
+    month* or *last week* (as offered by SeekR) is uncommon for scientific
     publications and is not supported by Google Scholar.
 
-    To limit the result list when the users selects a range, all the SearXNG
+    To limit the result list when the users selects a range, all the SeekR
     ranges (*day*, *week*, *month*, *year*) are mapped to *year*.  If no range
     is set an empty dictionary of arguments is returned.  Example;  when
     user selects a time range (current year minus one in 2022):

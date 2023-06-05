@@ -909,7 +909,7 @@ def autocompleter():
     # and there is a query part
     if len(raw_text_query.autocomplete_list) == 0 and len(sug_prefix) > 0:
 
-        # get SearXNG's locale and autocomplete backend from cookie
+        # get SeekR's locale and autocomplete backend from cookie
         sxng_locale = request.preferences.get_value('language')
         backend_name = request.preferences.get_value('autocomplete')
 
@@ -1192,7 +1192,7 @@ def engine_descriptions():
     for engine_name, engine_mod in engines.items():
         descr = getattr(engine_mod, 'about', {}).get('description', None)
         if descr is not None:
-            result[engine_name] = [descr, "SearXNG config"]
+            result[engine_name] = [descr, "SeekR config"]
 
     return jsonify(result)
 

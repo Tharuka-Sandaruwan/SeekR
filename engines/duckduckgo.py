@@ -107,7 +107,7 @@ def get_vqd(query, headers):
 
 
 def get_ddg_lang(eng_traits: EngineTraits, sxng_locale, default='en_US'):
-    """Get DuckDuckGo's language identifier from SearXNG's locale.
+    """Get DuckDuckGo's language identifier from SeekR's locale.
 
     DuckDuckGo defines its lanaguages by region codes (see
     :py:obj:`fetch_traits`).
@@ -119,7 +119,7 @@ def get_ddg_lang(eng_traits: EngineTraits, sxng_locale, default='en_US'):
        eng_region = traits.get_region(params['searxng_locale'], traits.all_locale)
        eng_lang = get_ddg_lang(traits, params['searxng_locale'])
 
-    It might confuse, but the ``l`` value of the cookie is what SearXNG calls
+    It might confuse, but the ``l`` value of the cookie is what SeekR calls
     the *region*:
 
     .. code:: python
@@ -334,9 +334,9 @@ def response(resp):
 def fetch_traits(engine_traits: EngineTraits):
     """Fetch languages & regions from DuckDuckGo.
 
-    SearXNG's ``all`` locale maps DuckDuckGo's "Alle regions" (``wt-wt``).
+    SeekR's ``all`` locale maps DuckDuckGo's "Alle regions" (``wt-wt``).
     DuckDuckGo's language "Browsers prefered language" (``wt_WT``) makes no
-    sense in a SearXNG request since SearXNG's ``all`` will not add a
+    sense in a SeekR request since SeekR's ``all`` will not add a
     ``Accept-Language`` HTTP header.  The value in ``engine_traits.all_locale``
     is ``wt-wt`` (the region).
 
@@ -349,7 +349,7 @@ def fetch_traits(engine_traits: EngineTraits):
     - en_GB
 
     The function :py:obj:`get_ddg_lang` evaluates DuckDuckGo's language from
-    SearXNG's locale.
+    SeekR's locale.
 
     """
     # pylint: disable=too-many-branches, too-many-statements

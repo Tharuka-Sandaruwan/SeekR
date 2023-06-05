@@ -394,10 +394,10 @@ msgstr "Plugin di verifica tor"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "Questo plugin controlla se l'indirizzo richiesto è un nodo di uscita di "
-"Tor e informa l'utente se lo è; come check.torproject.org, ma da SearXNG."
+"Tor e informa l'utente se lo è; come check.torproject.org, ma da SeekR."
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -614,9 +614,9 @@ msgid "What language do you prefer for search?"
 msgstr "Che lingua preferisci per eseguire la ricerca?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
-"Scegli la funzione di Auto-rilevamento per far scegliere a SearXNG la "
+"Scegli la funzione di Auto-rilevamento per far scegliere a SeekR la "
 "lingua da usare nella tua ricerca."
 
 #: searx/templates/simple/preferences.html:133
@@ -692,8 +692,8 @@ msgid "Theme"
 msgstr "Tema"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Cambia la disposizione di SearXNG"
+msgid "Change SeekR layout"
+msgstr "Cambia la disposizione di SeekR"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -774,8 +774,8 @@ msgid "Disabled"
 msgstr "Disabilitato"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Proxy dei risultati delle immagini attraverso SearXNG"
+msgid "Proxying image results through SeekR"
+msgstr "Proxy dei risultati delle immagini attraverso SeekR"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -863,8 +863,8 @@ msgid "Examples"
 msgstr "Esempi"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Questa è la lista dei moduli di risposta istantanea di SearXNG."
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "Questa è la lista dei moduli di risposta istantanea di SeekR."
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -876,15 +876,15 @@ msgstr "Cookie"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
-"Questa è la lista di cookies e i loro valori che SearXNG sta salvando sul"
+"Questa è la lista di cookies e i loro valori che SeekR sta salvando sul"
 " tuo computer."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "Con questa lista, potete valutare la trasparenza di SearXNG."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "Con questa lista, potete valutare la trasparenza di SeekR."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1476,8 +1476,8 @@ msgstr "nascondi video"
 #~ msgid "Heads up!"
 #~ msgstr "Avviso!"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "Sembra che sia la prima volta che usi SearXNG."
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "Sembra che sia la prima volta che usi SeekR."
 
 #~ msgid "Well done!"
 #~ msgstr "Ottimo!"
@@ -1616,5 +1616,5 @@ msgstr "nascondi video"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "I motori di ricerca non riescono a recuperare risultati."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "Riprova più tardi o trova un'altra istanza SearXNG."
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "Riprova più tardi o trova un'altra istanza SeekR."

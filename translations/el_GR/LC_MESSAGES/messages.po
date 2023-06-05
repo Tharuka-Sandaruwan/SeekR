@@ -381,11 +381,11 @@ msgstr "Πρόσθετο ελέγχου Tor"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "Αυτό το πρόσθετο ελέγχει εάν η διεύθυνση του χρήστη είναι διεύθυνση "
 "εξόδου του δικτύου Tor και ενημερώνει τον χρήστη εάν είναι έτσι. Όπως στο"
-" check.torproject.org, αλλά από το SearXNG."
+" check.torproject.org, αλλά από το SeekR."
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -445,7 +445,7 @@ msgstr "σελίδα αναζήτησης"
 
 #: searx/templates/simple/base.html:46
 msgid "About"
-msgstr "Σχετικά με το SearXNG"
+msgstr "Σχετικά με το SeekR"
 
 #: searx/templates/simple/base.html:50
 msgid "Donate"
@@ -529,7 +529,7 @@ msgstr ""
 #: searx/templates/simple/new_issue.html:71
 msgid "If this is a public instance, please specify the URL in the bug report"
 msgstr ""
-"Εάν πρόκειται για μια δημόσια σελίδα (SearXNG instance), παρακαλούμε "
+"Εάν πρόκειται για μια δημόσια σελίδα (SeekR instance), παρακαλούμε "
 "αναφέρετε τη διεύθυνση URL στην αναφορά σφάλματος"
 
 #: searx/templates/simple/new_issue.html:72
@@ -605,9 +605,9 @@ msgid "What language do you prefer for search?"
 msgstr "Τι γλώσσα προτιμάτε για αναζήτηση;"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
-"Επιλέξτε αυτόματη αναγνώριση για να αφήσετε το SearXNG να αναγνωρίσει την"
+"Επιλέξτε αυτόματη αναγνώριση για να αφήσετε το SeekR να αναγνωρίσει την"
 " γλώσσα του ερωτήματος σας αυτόματα."
 
 #: searx/templates/simple/preferences.html:133
@@ -683,8 +683,8 @@ msgid "Theme"
 msgstr "Θέμα"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Τροποποίηση διάταξης του SearXNG"
+msgid "Change SeekR layout"
+msgstr "Τροποποίηση διάταξης του SeekR"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -767,8 +767,8 @@ msgid "Disabled"
 msgstr "Απενεργοποιημένο"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Διαμεσολάβιση φόρτωσης αποτελεσμάτων εικόνων μέσω του SearXNG"
+msgid "Proxying image results through SeekR"
+msgstr "Διαμεσολάβιση φόρτωσης αποτελεσμάτων εικόνων μέσω του SeekR"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -854,8 +854,8 @@ msgid "Examples"
 msgstr "Παραδείγματα"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Αυτός είναι ο κατάλογος των ενοτήτων άμεσης απάντησης του SearXNG."
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "Αυτός είναι ο κατάλογος των ενοτήτων άμεσης απάντησης του SeekR."
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -867,15 +867,15 @@ msgstr "Cookies"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
 "Αυτός είναι ο κατάλογος των cookies και των τιμών τους που αποθηκεύει η "
-"SearXNG στον υπολογιστή σας."
+"SeekR στον υπολογιστή σας."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "Με αυτόν τον κατάλογο, μπορείτε να αξιολογήσετε τη διαφάνεια του SearXNG."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "Με αυτόν τον κατάλογο, μπορείτε να αξιολογήσετε τη διαφάνεια του SeekR."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1461,7 +1461,7 @@ msgstr "απόκρυψη βίντεο"
 #~ msgid "Heads up!"
 #~ msgstr ""
 
-#~ msgid "It look like you are using SearXNG first time."
+#~ msgid "It look like you are using SeekR first time."
 #~ msgstr ""
 
 #~ msgid "Well done!"
@@ -1595,7 +1595,7 @@ msgstr "απόκρυψη βίντεο"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "Οι μηχανές δε μπορούν να φέρουν αποτελέσματα."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""
 #~ "Παρακαλώ, προσπαθήστε ξανά αργότερα ή "
-#~ "βρείτε ένα άλλο instance του SearXNG."
+#~ "βρείτε ένα άλλο instance του SeekR."

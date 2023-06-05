@@ -392,11 +392,11 @@ msgstr "Tor Prüf-Plugin"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "Dieses Plugin prüft, ob die Adresse der Anfrage ein Tor-Exit-Node ist, "
 "und informiert den Benutzer, wenn dies der Fall ist; wie "
-"check.torproject.org, aber von SearXNG."
+"check.torproject.org, aber von SeekR."
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -616,7 +616,7 @@ msgid "What language do you prefer for search?"
 msgstr "Welche Sprache oder Region soll bei der Suche bevorzugt werden?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr "Mit der Spracherkennung wird die Sprache automatisch erkannt."
 
 #: searx/templates/simple/preferences.html:133
@@ -692,8 +692,8 @@ msgid "Theme"
 msgstr "Design"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Ändere das Aussehen von SearXNG"
+msgid "Change SeekR layout"
+msgstr "Ändere das Aussehen von SeekR"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -774,8 +774,8 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Bilder über den Proxy von SearXNG laden"
+msgid "Proxying image results through SeekR"
+msgstr "Bilder über den Proxy von SeekR laden"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -863,8 +863,8 @@ msgid "Examples"
 msgstr "Beispiele"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Dies ist die Liste der in SearXNG verfügbaren Module für Sofortantworten."
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "Dies ist die Liste der in SeekR verfügbaren Module für Sofortantworten."
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -876,15 +876,15 @@ msgstr "Cookies"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
-"Die nachfolgende Liste zeigt alle Cookies, die SearXNG auf deinem "
+"Die nachfolgende Liste zeigt alle Cookies, die SeekR auf deinem "
 "Computer speichert."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "Mit dieser Liste können Sie die Transparenz von SearXNG einschätzen."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "Mit dieser Liste können Sie die Transparenz von SeekR einschätzen."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1484,8 +1484,8 @@ msgstr "Video verstecken"
 #~ msgid "Heads up!"
 #~ msgstr "Achtung!"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "Es sieht so aus, als würden Sie SearXNG zum ersten Mal verwenden."
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "Es sieht so aus, als würden Sie SeekR zum ersten Mal verwenden."
 
 #~ msgid "Well done!"
 #~ msgstr "Gut gemacht!"
@@ -1554,7 +1554,7 @@ msgstr "Video verstecken"
 #~ "informiert den Benutzer, wenn dies der"
 #~ " Fall ist. Vergleichbar mit "
 #~ "check.torproject.org aber innerhalb von "
-#~ "SearXNG."
+#~ "SeekR."
 
 #~ msgid ""
 #~ "The TOR exit node list "
@@ -1626,7 +1626,7 @@ msgstr "Video verstecken"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "Suchmaschinen können die Ergebnisse nicht empfangen."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""
 #~ "Bitte versuche es später noch einmal "
-#~ "oder wähle eine andere SearXNG Instanz."
+#~ "oder wähle eine andere SeekR Instanz."

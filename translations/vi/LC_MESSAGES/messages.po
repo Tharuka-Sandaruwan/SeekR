@@ -375,11 +375,11 @@ msgstr "Kiểm tra Tor plugin"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "Plugin này kiểm tra xem địa chỉ của yêu cầu này có phải là một nút thoát của "
 "Tor hay không và sẽ báo cáo người dùng nếu đúng như vậy; giống như "
-"check.torproject.org, nhưng từ SearXNG."
+"check.torproject.org, nhưng từ SeekR."
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -595,9 +595,9 @@ msgid "What language do you prefer for search?"
 msgstr "Bạn muốn tìm kiếm bằng ngôn ngữ nào?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
-"Chọn Tự đông phát hiện để SearXNG dò ra ngôn ngữ thuộc tìm kiếm của bạn."
+"Chọn Tự đông phát hiện để SeekR dò ra ngôn ngữ thuộc tìm kiếm của bạn."
 
 #: searx/templates/simple/preferences.html:133
 msgid "Autocomplete"
@@ -672,8 +672,8 @@ msgid "Theme"
 msgstr "Chủ đề màu"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Thay đổi bố cục của SearXNG"
+msgid "Change SeekR layout"
+msgstr "Thay đổi bố cục của SeekR"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -752,8 +752,8 @@ msgid "Disabled"
 msgstr "Đã tắt"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Proxy hóa các kết quả bức ảnh tìm kiếm được thông qua SearXNG"
+msgid "Proxying image results through SeekR"
+msgstr "Proxy hóa các kết quả bức ảnh tìm kiếm được thông qua SeekR"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -837,7 +837,7 @@ msgid "Examples"
 msgstr "Các ví dụ"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of SeekR's instant answering modules."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:383
@@ -850,12 +850,12 @@ msgstr "Các cookie"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess SeekR transparency."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:408
@@ -1448,7 +1448,7 @@ msgstr "ẩn phim"
 #~ msgid "Heads up!"
 #~ msgstr "Cẩn thận!"
 
-#~ msgid "It look like you are using SearXNG first time."
+#~ msgid "It look like you are using SeekR first time."
 #~ msgstr ""
 
 #~ msgid "Well done!"
@@ -1517,7 +1517,7 @@ msgstr "ẩn phim"
 #~ " một TOR exit node hay không, "
 #~ "và thông báo lại cho người dùng."
 #~ " Giống như check.torproject.org nhưng từ"
-#~ " SearXNG."
+#~ " SeekR."
 
 #~ msgid ""
 #~ "The TOR exit node list "
@@ -1579,5 +1579,5 @@ msgstr "ẩn phim"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "Các trình tìm kiếm không nhận được kết quả."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""

@@ -373,7 +373,7 @@ msgstr "Tor 確認プラグイン"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr "このプラグインではcheck.torprogject.orgのようにTor 出口ノードのIPアドレスをSearXNGからチェックする。"
 
 #: searx/plugins/tor_check.py:62
@@ -581,7 +581,7 @@ msgid "What language do you prefer for search?"
 msgstr "どの言語で検索しますか？"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr "あなたのクエリーの言語をSearXNGは自動的に検出するように選択する。"
 
 #: searx/templates/simple/preferences.html:133
@@ -655,7 +655,7 @@ msgid "Theme"
 msgstr "テーマ"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
+msgid "Change SeekR layout"
 msgstr "SearXNGレイアウトの変更"
 
 #: searx/templates/simple/preferences.html:210
@@ -735,7 +735,7 @@ msgid "Disabled"
 msgstr "無効"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through SeekR"
 msgstr "画像の結果をSearXNG経由でプロキシする"
 
 #: searx/templates/simple/preferences.html:285
@@ -821,8 +821,8 @@ msgid "Examples"
 msgstr "例"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "これは SearXNG の即席回答モジュールのリストです。"
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "これは SeekR の即席回答モジュールのリストです。"
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -834,13 +834,13 @@ msgstr "クッキー"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr "これはクッキーのリストで、これらの値はあなたのコンピュータに保存されています。"
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "このリストによって、あなたは SearXNG の透明性を評価できます。"
+msgid "With that list, you can assess SeekR transparency."
+msgstr "このリストによって、あなたは SeekR の透明性を評価できます。"
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1416,8 +1416,8 @@ msgstr "動画を隠す"
 #~ msgid "Heads up!"
 #~ msgstr "気をつけて!"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "SearXNG を初めてお使いになるようですね。"
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "SeekR を初めてお使いになるようですね。"
 
 #~ msgid "Well done!"
 #~ msgstr "あっぱれ!"
@@ -1540,5 +1540,5 @@ msgstr "動画を隠す"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "エンジンは結果を取得できません。"
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "後でやり直すか、別の SearXNG インスタンスを試してみて下さい。"
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "後でやり直すか、別の SeekR インスタンスを試してみて下さい。"

@@ -40,7 +40,7 @@ ADDITIONAL_TRANSLATIONS = {
     "szl": "Ślōnski (Silesian)",
     "pap": "Papiamento",
 }
-"""Additional languages SearXNG has translations for but not supported by
+"""Additional languages SeekR has translations for but not supported by
 python-babel (see :py:obj:`locales_initialize`)."""
 
 LOCALE_BEST_MATCH = {
@@ -123,7 +123,7 @@ def _get_locale_descr(locale, language_code):
 
 
 def locales_initialize(directory=None):
-    """Initialize locales environment of the SearXNG session.
+    """Initialize locales environment of the SeekR session.
 
     - monkey patch :py:obj:`flask_babel.get_translations` by :py:obj:`get_translations`
     - init global names :py:obj:`LOCALE_NAMES`, :py:obj:`RTL_LOCALES`
@@ -161,14 +161,14 @@ def locales_initialize(directory=None):
 
 
 def region_tag(locale: babel.Locale) -> str:
-    """Returns SearXNG's region tag from the locale (e.g. zh-TW , en-US)."""
+    """Returns SeekR's region tag from the locale (e.g. zh-TW , en-US)."""
     if not locale.territory:
         raise ValueError('%s missed a territory')
     return locale.language + '-' + locale.territory
 
 
 def language_tag(locale: babel.Locale) -> str:
-    """Returns SearXNG's language tag from the locale and if exits, the tag
+    """Returns SeekR's language tag from the locale and if exits, the tag
     includes the script name (e.g. en, zh_Hant).
     """
     sxng_lang = locale.language
@@ -229,11 +229,11 @@ def get_engine_locale(searxng_locale, engine_locales, default=None):
     """Return engine's language (aka locale) string that best fits to argument
     ``searxng_locale``.
 
-    Argument ``engine_locales`` is a python dict that maps *SearXNG locales* to
+    Argument ``engine_locales`` is a python dict that maps *SeekR locales* to
     corresponding *engine locales*::
 
       <engine>: {
-          # SearXNG string : engine-string
+          # SeekR string : engine-string
           'ca-ES'          : 'ca_ES',
           'fr-BE'          : 'fr_BE',
           'fr-CA'          : 'fr_CA',
@@ -250,7 +250,7 @@ def get_engine_locale(searxng_locale, engine_locales, default=None):
 
     .. hint::
 
-       The *SearXNG locale* string has to be known by babel!
+       The *SeekR locale* string has to be known by babel!
 
     If there is no direct 1:1 mapping, this functions tries to narrow down
     engine's language (locale).  If no value can be determined by these
@@ -302,7 +302,7 @@ def get_engine_locale(searxng_locale, engine_locales, default=None):
         # There was a 1:1 mapping (e.g. "zh-HK --> zh_Hant" or "zh-CN --> zh_Hans")
         return engine_locale
 
-    # SearXNG's selected locale is not supported by the engine ..
+    # SeekR's selected locale is not supported by the engine ..
 
     if locale.territory:
         # Try to narrow by *offical* languages in the territory (??-XX).
@@ -379,7 +379,7 @@ def get_engine_locale(searxng_locale, engine_locales, default=None):
 def match_locale(searxng_locale: str, locale_tag_list: List[str], fallback: Optional[str] = None) -> Optional[str]:
     """Return tag from ``locale_tag_list`` that best fits to ``searxng_locale``.
 
-    :param str searxng_locale: SearXNG's internal representation of locale (de,
+    :param str searxng_locale: SeekR's internal representation of locale (de,
         de-DE, fr-BE, zh, zh-CN, zh-TW ..).
 
     :param list locale_tag_list: The list of locale tags to select from
@@ -391,7 +391,7 @@ def match_locale(searxng_locale: str, locale_tag_list: List[str], fallback: Opti
 
     .. hint::
 
-       The *SearXNG locale* string and the members of ``locale_tag_list`` has to
+       The *SeekR locale* string and the members of ``locale_tag_list`` has to
        be known by babel!  The :py:obj:`ADDITIONAL_TRANSLATIONS` are used in the
        UI and are not known by babel --> will be ignored.
     """
@@ -406,7 +406,7 @@ def match_locale(searxng_locale: str, locale_tag_list: List[str], fallback: Opti
     if locale is None:
         return fallback
 
-    # normalize to a SearXNG locale that can be passed to get_engine_locale
+    # normalize to a SeekR locale that can be passed to get_engine_locale
 
     searxng_locale = language_tag(locale)
     if locale.territory:
@@ -448,11 +448,11 @@ def build_engine_locales(tag_list: List[str]):
        'zh-CN'
 
     This function is a good example to understand the language/region model
-    of SearXNG:
+    of SeekR:
 
-      SearXNG only distinguishes between **search languages** and **search
+      SeekR only distinguishes between **search languages** and **search
       regions**, by adding the *script-tags*, languages with *script-tags* can
-      be assigned to the **regions** that SearXNG supports.
+      be assigned to the **regions** that SeekR supports.
 
     """
     engine_locales = {}

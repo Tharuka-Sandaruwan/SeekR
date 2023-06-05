@@ -10,7 +10,7 @@ billion images `[tineye.com] <https://tineye.com/how>`_.
 
 .. hint::
 
-   This SearXNG engine only supports *'searching by URL'* and it does not use
+   This SeekR engine only supports *'searching by URL'* and it does not use
    the official API `[api.tineye.com] <https://api.tineye.com/python/docs/>`_.
 
 """

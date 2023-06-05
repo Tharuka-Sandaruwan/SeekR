@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # lint: pylint
 # pyright: basic
-"""Render SearXNG instance documentation.
+"""Render SeekR instance documentation.
 
 Usage in a Flask app route:
 
@@ -105,7 +105,7 @@ class InfoPage:
 
 
 class InfoPageSet:  # pylint: disable=too-few-public-methods
-    """Cached rendering of the online documentation a SearXNG instance has.
+    """Cached rendering of the online documentation a SeekR instance has.
 
     :param page_class: render online documentation by :py:obj:`InfoPage` parser.
     :type page_class: :py:obj:`InfoPage`

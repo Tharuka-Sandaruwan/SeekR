@@ -356,7 +356,7 @@ msgstr ""
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 
 #: searx/plugins/tor_check.py:62
@@ -562,7 +562,7 @@ msgid "What language do you prefer for search?"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -636,7 +636,7 @@ msgid "Theme"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
+msgid "Change SeekR layout"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:210
@@ -713,7 +713,7 @@ msgid "Disabled"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through SeekR"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:285
@@ -798,7 +798,7 @@ msgid "Examples"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of SeekR's instant answering modules."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:383
@@ -811,12 +811,12 @@ msgstr ""
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess SeekR transparency."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:408
@@ -1401,7 +1401,7 @@ msgstr ""
 #~ msgid "Heads up!"
 #~ msgstr ""
 
-#~ msgid "It look like you are using SearXNG first time."
+#~ msgid "It look like you are using SeekR first time."
 #~ msgstr ""
 
 #~ msgid "Well done!"
@@ -1518,6 +1518,6 @@ msgstr ""
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr ""
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""
 

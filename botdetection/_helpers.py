@@ -66,7 +66,7 @@ def get_real_ip(request: flask.Request) -> str:
 
     .. sidebar:: :py:obj:`flask.Request.remote_addr`
 
-       SearXNG uses Werkzeug's ProxyFix_ (with it default ``x_for=1``).
+       SeekR uses Werkzeug's ProxyFix_ (with it default ``x_for=1``).
 
     This function tries to get the remote IP in the order listed below,
     additional some tests are done and if inconsistencies or errors are

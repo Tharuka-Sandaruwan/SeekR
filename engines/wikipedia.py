@@ -32,11 +32,11 @@ PR-2554_:
 .. _https://zh.wikipedia.org/wiki/出租車:
    https://zh.wikipedia.org/wiki/%E5%87%BA%E7%A7%9F%E8%BB%8A
 
-To support Wikipedia's LanguageConverter_, a SearXNG request to Wikipedia uses
+To support Wikipedia's LanguageConverter_, a SeekR request to Wikipedia uses
 :py:obj:`get_wiki_params` and :py:obj:`wiki_lc_locale_variants' in the
 :py:obj:`fetch_wikimedia_traits` function.
 
-To test in SearXNG, query for ``!wp 出租車`` with each of the available Chinese
+To test in SeekR, query for ``!wp 出租車`` with each of the available Chinese
 options:
 
 - ``!wp 出租車 :zh``    should show 出租車
@@ -235,7 +235,7 @@ def fetch_traits(engine_traits: EngineTraits):
 
 def fetch_wikimedia_traits(engine_traits: EngineTraits):
     """Fetch languages from Wikipedia.  Not all languages from the
-    :py:obj:`list_of_wikipedias` are supported by SearXNG locales, only those
+    :py:obj:`list_of_wikipedias` are supported by SeekR locales, only those
     known from :py:obj:`searx.locales.LOCALE_NAMES` or those with a minimal
     :py:obj:`editing depth <wikipedia_article_depth>`.
 

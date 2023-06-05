@@ -370,9 +370,9 @@ msgstr "Tor 網路檢測"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr "該外掛程式檢查請求的位址是否是 Tor 出口節點，並通知使用者是否是;像 check."
-"torproject.org，但來自 SearXNG。"
+"torproject.org，但來自 SeekR。"
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -494,7 +494,7 @@ msgstr "開始再 GitHub 上提交問題"
 
 #: searx/templates/simple/new_issue.html:66
 msgid "Please check for existing bugs about this engine on GitHub"
-msgstr "請在 GitHub 上查看目前 SearXNG 引擎的問題"
+msgstr "請在 GitHub 上查看目前 SeekR 引擎的問題"
 
 #: searx/templates/simple/new_issue.html:69
 msgid "I confirm there is no existing bug about the issue I encounter"
@@ -577,7 +577,7 @@ msgid "What language do you prefer for search?"
 msgstr "您偏好用哪種語言搜尋？"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -651,8 +651,8 @@ msgid "Theme"
 msgstr "主題"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "更改 SearXNG 佈局"
+msgid "Change SeekR layout"
+msgstr "更改 SeekR 佈局"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -730,8 +730,8 @@ msgid "Disabled"
 msgstr "已停用"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "通過 SearXNG 代理訪問圖片結果"
+msgid "Proxying image results through SeekR"
+msgstr "通過 SeekR 代理訪問圖片結果"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -815,8 +815,8 @@ msgid "Examples"
 msgstr "範例"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "這是 SearXNG 即時回應模塊列表。"
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "這是 SeekR 即時回應模塊列表。"
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -828,13 +828,13 @@ msgstr "Cookies"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
-msgstr "這是 SearXNG 在您的計算機上存儲的 Cookie 的列表及對應的值。"
+msgstr "這是 SeekR 在您的計算機上存儲的 Cookie 的列表及對應的值。"
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "您可以憑此列表評估 SearXNG 的透明度。"
+msgid "With that list, you can assess SeekR transparency."
+msgstr "您可以憑此列表評估 SeekR 的透明度。"
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1408,8 +1408,8 @@ msgstr "隱藏影片"
 #~ msgid "Heads up!"
 #~ msgstr "注意！"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "這似乎是您首次使用 SearXNG。"
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "這似乎是您首次使用 SeekR。"
 
 #~ msgid "Well done!"
 #~ msgstr "很好！"
@@ -1527,5 +1527,5 @@ msgstr "隱藏影片"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "引擎無法擷取結果。"
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "請稍後再試，或換用其他 SearXNG 站點。"
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "請稍後再試，或換用其他 SeekR 站點。"

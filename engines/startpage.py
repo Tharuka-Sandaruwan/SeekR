@@ -470,7 +470,7 @@ def fetch_traits(engine_traits: EngineTraits):
     )
 
     skip_eng_tags = {
-        'english_uk',  # SearXNG lang 'en' already maps to 'english'
+        'english_uk',  # SeekR lang 'en' already maps to 'english'
     }
 
     for option in dom.xpath('//form[@name="settings"]//select[@name="language"]/option'):

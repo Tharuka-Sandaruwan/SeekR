@@ -378,7 +378,7 @@ msgstr "Tor-verkon tarkistus lisäosa"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "Tämä lisäosa tarkistaa, tuleeko pyyntö TOR exit nodesta, ja ilmoittaa "
 "käyttäjälle, jos se on, samalla tavalla kuin check.torproject.org, mutta "
@@ -437,7 +437,7 @@ msgstr "hakusivulle"
 
 #: searx/templates/simple/base.html:46
 msgid "About"
-msgstr "Tietoa SearXNG:stä"
+msgstr "Tietoa SeekR:stä"
 
 #: searx/templates/simple/base.html:50
 msgid "Donate"
@@ -593,9 +593,9 @@ msgid "What language do you prefer for search?"
 msgstr "Millä kielellä haluat etsiä ensisijaisesti?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
-"Valitse \"Havaitse automaattisesti\", jotta SearXNG havaitsee haun kielen"
+"Valitse \"Havaitse automaattisesti\", jotta SeekR havaitsee haun kielen"
 " automaattisesti."
 
 #: searx/templates/simple/preferences.html:133
@@ -671,8 +671,8 @@ msgid "Theme"
 msgstr "Teema"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "Vaihda SearXNG:n käyttöliittymä"
+msgid "Change SeekR layout"
+msgstr "Vaihda SeekR:n käyttöliittymä"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -751,8 +751,8 @@ msgid "Disabled"
 msgstr "Ei käytössä"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
-msgstr "Kuvatulosten välitys SearXNG:n kautta"
+msgid "Proxying image results through SeekR"
+msgstr "Kuvatulosten välitys SeekR:n kautta"
 
 #: searx/templates/simple/preferences.html:285
 msgid "Query in the page's title"
@@ -838,8 +838,8 @@ msgid "Examples"
 msgstr "Esimerkit"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
-msgstr "Tämä on luettelo SearXNG:n pikavastausmoduuleista."
+msgid "This is the list of SeekR's instant answering modules."
+msgstr "Tämä on luettelo SeekR:n pikavastausmoduuleista."
 
 #: searx/templates/simple/preferences.html:383
 msgid "This is the list of plugins."
@@ -851,15 +851,15 @@ msgstr "Evästeet"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
-"Tämä on luettelo evästeistä ja niiden arvoista, joita SearXNG tallentaa "
+"Tämä on luettelo evästeistä ja niiden arvoista, joita SeekR tallentaa "
 "tietokoneellesi."
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "Tämän luettelon avulla voit arvioida SearXNG:n läpinäkyvyyttä."
+msgid "With that list, you can assess SeekR transparency."
+msgstr "Tämän luettelon avulla voit arvioida SeekR:n läpinäkyvyyttä."
 
 #: searx/templates/simple/preferences.html:408
 msgid "Cookie name"
@@ -1453,8 +1453,8 @@ msgstr "piilota video"
 #~ msgid "Heads up!"
 #~ msgstr "Pää pystyyn!"
 
-#~ msgid "It look like you are using SearXNG first time."
-#~ msgstr "Näyttää siltä, että käytät SearXNG:tä ensimmäistä kertaa."
+#~ msgid "It look like you are using SeekR first time."
+#~ msgstr "Näyttää siltä, että käytät SeekR:tä ensimmäistä kertaa."
 
 #~ msgid "Well done!"
 #~ msgstr "Hyvin tehty!"
@@ -1584,5 +1584,5 @@ msgstr "piilota video"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr "Moottorit eivät voi palauttaa tuloksia."
 
-#~ msgid "Please, try again later or find another SearXNG instance."
-#~ msgstr "Yritä uudelleen tai etsi toinen SearXNG-palvelin."
+#~ msgid "Please, try again later or find another SeekR instance."
+#~ msgstr "Yritä uudelleen tai etsi toinen SeekR-palvelin."

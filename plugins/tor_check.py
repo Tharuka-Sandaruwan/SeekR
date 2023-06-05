@@ -27,7 +27,7 @@ name = gettext("Tor check plugin")
 
 description = gettext(
     "This plugin checks if the address of the request is a Tor exit-node, and"
-    " informs the user if it is; like check.torproject.org, but from SearXNG."
+    " informs the user if it is; like check.torproject.org, but from SeekR."
 )
 '''Translated description of the plugin.'''
 

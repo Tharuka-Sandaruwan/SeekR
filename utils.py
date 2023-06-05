@@ -562,7 +562,7 @@ def detect_language(text: str, threshold: float = 0.3, only_search_languages: bo
         probability.
 
     :param bool only_search_languages: If ``True``, returns only supported
-        SearXNG search languages.  see :py:obj:`searx.languages`
+        SeekR search languages.  see :py:obj:`searx.languages`
 
     :rtype: str, None
     :returns:
@@ -590,16 +590,16 @@ def detect_language(text: str, threshold: float = 0.3, only_search_languages: bo
         tr tt tyv ug uk ur uz vec vep vi vls vo wa war wuu xal xmf yi yo yue zh
 
     By using ``only_search_languages=True`` the `language identification model`_
-    is harmonized with the SearXNG's language (locale) model.  General
-    conditions of SearXNG's locale model are:
+    is harmonized with the SeekR's language (locale) model.  General
+    conditions of SeekR's locale model are:
 
-    a. SearXNG's locale of a query is passed to the
+    a. SeekR's locale of a query is passed to the
        :py:obj:`searx.locales.get_engine_locale` to get a language and/or region
        code that is used by an engine.
 
-    b. Most of SearXNG's engines do not support all the languages from `language
+    b. Most of SeekR's engines do not support all the languages from `language
        identification model`_ and there is also a discrepancy in the ISO-639-3
-       (fastext) and ISO-639-2 (SearXNG)handling.  Further more, in SearXNG the
+       (fastext) and ISO-639-2 (SeekR)handling.  Further more, in SeekR the
        locales like ``zh-TH`` (``zh-CN``) are mapped to ``zh_Hant``
        (``zh_Hans``) while the `language identification model`_ reduce both to
        ``zh``.

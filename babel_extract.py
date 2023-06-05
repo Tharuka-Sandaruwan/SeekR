@@ -15,7 +15,7 @@ The ``searxng.msg`` files are selected by Babel_, see Babel's configuration in
 A ``searxng.msg`` file is a python file that is *executed* by the
 :py:obj:`extract` function.  Additional ``searxng.msg`` files can be added by:
 
-1. Adding a ``searxng.msg`` file in one of the SearXNG python packages and
+1. Adding a ``searxng.msg`` file in one of the SeekR python packages and
 2. implement a method in :py:obj:`extract` that yields messages from this file.
 
 .. _Babel: https://babel.pocoo.org/en/latest/index.html

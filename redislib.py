@@ -54,8 +54,8 @@ def purge_by_prefix(client, prefix: str = "SearXNG_"):
     """Purge all keys with ``prefix`` from database.
 
     Queries all keys in the database by the given prefix and set expire time to
-    zero.  The default prefix will drop all keys which has been set by SearXNG
-    (drops SearXNG schema entirely from database).
+    zero.  The default prefix will drop all keys which has been set by SeekR
+    (drops SeekR schema entirely from database).
 
     The implementation is the lua script from string :py:obj:`PURGE_BY_PREFIX`.
     The lua script uses EXPIRE_ instead of DEL_: if there are a lot keys to

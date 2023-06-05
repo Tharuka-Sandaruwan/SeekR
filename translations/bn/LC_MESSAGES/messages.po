@@ -375,11 +375,11 @@ msgstr "টর চেক প্লাগইন"
 #: searx/plugins/tor_check.py:28
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
-"informs the user if it is; like check.torproject.org, but from SearXNG."
+"informs the user if it is; like check.torproject.org, but from SeekR."
 msgstr ""
 "এই প্লাগইনটি চেক করে যে অনুরোধের ঠিকানাটি একটি TOR প্রস্থান নোড কিনা এবং "
 "ব্যবহারকারীকে জানিয়ে দেয় যে এটি কিনা, যেমন check.torproject.org কিন্তু "
-"SearXNG থেকে।"
+"SeekR থেকে।"
 
 #: searx/plugins/tor_check.py:62
 msgid ""
@@ -590,7 +590,7 @@ msgid "What language do you prefer for search?"
 msgstr "আপনি অনুসন্ধানের জন্য কোন ভাষা পছন্দ করেন?"
 
 #: searx/templates/simple/preferences.html:127
-msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgid "Choose Auto-detect to let SeekR detect the language of your query."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:133
@@ -666,8 +666,8 @@ msgid "Theme"
 msgstr "রঙ"
 
 #: searx/templates/simple/preferences.html:207
-msgid "Change SearXNG layout"
-msgstr "SearXNG এর লেআউট পরিবর্তন করুন"
+msgid "Change SeekR layout"
+msgstr "SeekR এর লেআউট পরিবর্তন করুন"
 
 #: searx/templates/simple/preferences.html:210
 msgid "Theme style"
@@ -743,7 +743,7 @@ msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
 #: searx/templates/simple/preferences.html:280
-msgid "Proxying image results through SearXNG"
+msgid "Proxying image results through SeekR"
 msgstr ""
 
 #: searx/templates/simple/preferences.html:285
@@ -828,7 +828,7 @@ msgid "Examples"
 msgstr "উদাহরণ"
 
 #: searx/templates/simple/preferences.html:372
-msgid "This is the list of SearXNG's instant answering modules."
+msgid "This is the list of SeekR's instant answering modules."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:383
@@ -841,12 +841,12 @@ msgstr "কুকি"
 
 #: searx/templates/simple/preferences.html:402
 msgid ""
-"This is the list of cookies and their values SearXNG is storing on your "
+"This is the list of cookies and their values SeekR is storing on your "
 "computer."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:403
-msgid "With that list, you can assess SearXNG transparency."
+msgid "With that list, you can assess SeekR transparency."
 msgstr ""
 
 #: searx/templates/simple/preferences.html:408
@@ -1318,5 +1318,5 @@ msgstr "ভিডিও লুকিয়ে ফেলুন"
 #~ msgid "Engines cannot retrieve results."
 #~ msgstr ""
 
-#~ msgid "Please, try again later or find another SearXNG instance."
+#~ msgid "Please, try again later or find another SeekR instance."
 #~ msgstr ""

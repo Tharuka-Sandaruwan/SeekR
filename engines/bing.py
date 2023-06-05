@@ -289,7 +289,7 @@ def _fetch_traits(engine_traits: EngineTraits, url: str, xpath_language_codes: s
 
         if eng_lang in ('en-gb', 'pt-br'):
             # language 'en' is already in the list and a language 'en-gb' can't
-            # be handled in SearXNG, same with pt-br which is covered by pt-pt.
+            # be handled in SeekR, same with pt-br which is covered by pt-pt.
             continue
 
         babel_lang = map_lang.get(eng_lang, eng_lang).replace('-', '_')
