@@ -447,7 +447,7 @@ def render(template_name: str, **kwargs):
 
     # values from settings
     kwargs['search_formats'] = [x for x in settings['search']['formats'] if x != 'html']
-    kwargs['instance_name'] = get_setting('general.instance_name')
+    kwargs['instance_name'] = 'SeekR'
     kwargs['searx_version'] = VERSION_STRING
     kwargs['searx_git_url'] = GIT_URL
     kwargs['enable_metrics'] = get_setting('general.enable_metrics')
