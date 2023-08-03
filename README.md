@@ -1,5 +1,5 @@
 # SeekR
-Distributed Meta Search engine powered by Searx project
+Distributed Meta Search engine powered by Searx project.
 
 
 ```
